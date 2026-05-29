@@ -1,0 +1,84 @@
+/*
+ * Custom stylesheet for DiTz Store English learning site.
+ * This file defines colors, typography and layout adjustments
+ * that complement the Bootstrap framework to create a premium
+ * and professional look. Feel free to add or modify styles to
+ * customize the appearance further.
+ */
+
+/* Global styles */
+body {
+  font-family: 'Poppins', sans-serif;
+  padding-top: 56px; /* Offset for fixed navbar */
+  color: #333;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #222;
+}
+
+a {
+  color: #0d6efd;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #0a58ca;
+}
+
+/* Hero section */
+.hero {
+  background: linear-gradient(135deg, #007bff 0%, #6610f2 100%);
+  color: white;
+  min-height: 70vh;
+  text-align: center;
+  padding: 60px 0;
+}
+.hero h1 {
+  font-weight: 600;
+}
+.hero p {
+  font-size: 1.25rem;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+/* Features cards */
+.features .card-title {
+  font-weight: 600;
+}
+.features .card {
+  transition: transform 0.2s ease-in-out;
+}
+.features .card:hover {
+  transform: translateY(-5px);
+}
+
+/* Lessons section */
+.lessons .lesson .card-title {
+  font-weight: 600;
+}
+.lessons .lesson a {
+  margin-top: 10px;
+}
+
+/* Translation form */
+#translate .form-control, #translate .form-select {
+  border-radius: 0.25rem;
+  box-shadow: none;
+  border-color: #ced4da;
+}
+#translate .btn {
+  border-radius: 0.25rem;
+  font-weight: 600;
+}
+#translationResult {
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: #007bff;
+}
+
+/* Footer */
+footer p {
+  margin-bottom: 0;
+}
