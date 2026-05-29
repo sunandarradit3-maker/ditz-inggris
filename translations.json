@@ -1,0 +1,38 @@
+{
+  "hello": {
+    "id": "halo",
+    "es": "hola",
+    "fr": "bonjour",
+    "zh": "你好"
+  },
+  "goodbye": {
+    "id": "selamat tinggal",
+    "es": "adiós",
+    "fr": "au revoir",
+    "zh": "再见"
+  },
+  "thank you": {
+    "id": "terima kasih",
+    "es": "gracias",
+    "fr": "merci",
+    "zh": "谢谢"
+  },
+  "please": {
+    "id": "tolong",
+    "es": "por favor",
+    "fr": "s'il vous plaît",
+    "zh": "请"
+  },
+  "yes": {
+    "id": "ya",
+    "es": "sí",
+    "fr": "oui",
+    "zh": "是"
+  },
+  "no": {
+    "id": "tidak",
+    "es": "no",
+    "fr": "non",
+    "zh": "不"
+  }
+}
